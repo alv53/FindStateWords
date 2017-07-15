@@ -1,0 +1,74 @@
+alabama : question
+    No match for: alabama
+alaska : behind
+    No match for: alaska
+    No match for: arizona
+    No match for: arkansas
+    No match for: california
+colorado : investment
+    No match for: colorado
+    No match for: connecticut
+delaware : composition
+    No match for: delaware
+    No match for: florida
+    No match for: georgia
+hawaii : development
+    No match for: hawaii
+    No match for: idaho
+illinois : chamber
+    No match for: illinois
+indiana : somewhere
+    No match for: indiana
+iowa : nevertheless
+    No match for: iowa
+kansas : directly
+    No match for: kansas
+kentucky : also
+    No match for: kentucky
+    No match for: louisiana
+    No match for: maine
+    No match for: maryland
+    No match for: massachusetts
+    No match for: michigan
+    No match for: minnesota
+mississippi : another
+    No match for: mississippi
+missouri : happen
+    No match for: missouri
+montana : publisher
+    No match for: montana
+    No match for: nebraska
+nevada : politics
+    No match for: nevada
+    No match for: new hampshire
+new jersey : political
+    No match for: new jersey
+    No match for: new mexico
+    No match for: new york
+    No match for: north carolina
+north dakota : impulse
+    No match for: north dakota
+ohio : man
+    No match for: ohio
+oklahoma : distribute
+    No match for: oklahoma
+oregon : wait
+    No match for: oregon
+    No match for: pennsylvania
+    No match for: rhode island
+    No match for: south carolina
+    No match for: south dakota
+tennessee : probably
+    No match for: tennessee
+texas : including
+    No match for: texas
+utah : possible
+    No match for: utah
+    No match for: vermont
+virginia : household
+    No match for: virginia
+    No match for: washington
+    No match for: west virginia
+    No match for: wisconsin
+wyoming : research
+    No match for: wyoming

@@ -1,32 +1,50 @@
 alabama : cecidogenous
 alaska : bechignoned
+    No match for: arizona
+    No match for: arkansas
+    No match for: california
 colorado : beefishness
 connecticut : marshy
 delaware : binominous
+    No match for: florida
+    No match for: georgia
 hawaii : beetlestone
+    No match for: idaho
 illinois : achmetha
 indiana : becoresh
 iowa : bergschrund
 kansas : becquerelite
 kentucky : abaris
+    No match for: louisiana
 maine : brushwood
 maryland : bestick
+    No match for: massachusetts
 michigan : studflower
+    No match for: minnesota
 mississippi : aaron
 missouri : acalephan
 montana : beerish
+    No match for: nebraska
 nevada : bibliologist
+    No match for: new hampshire
 new jersey : abiotic
 new mexico : draughts
 new york : agathaumas
+    No match for: north carolina
 north dakota : cesium
 ohio : abantes
 oklahoma : bedsite
 oregon : ability
+    No match for: pennsylvania
+    No match for: rhode island
+    No match for: south carolina
+    No match for: south dakota
 tennessee : abiologically
 texas : biclinium
 utah : beckiron
 vermont : aguishly
 virginia : bedclothes
+    No match for: washington
+    No match for: west virginia
 wisconsin : akhlame
 wyoming : abashed

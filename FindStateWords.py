@@ -1,15 +1,24 @@
+import sys
 from nltk.corpus import words
-
-usa_states = ["alabama", "alaska", "arizona", "arkansas", "california", "colorado", "connecticut", "delaware", "florida", "georgia", "hawaii", "idaho", "illinois", "indiana", "iowa", "kansas", "kentucky", "louisiana", "maine", "maryland", "massachusetts", "michigan", "minnesota", "mississippi", "missouri", "montana", "nebraska", "nevada", "new hampshire", "new jersey", "new mexico", "new york", "north carolina", "north dakota", "ohio", "oklahoma", "oregon", "pennsylvania" , "rhode island", "south carolina", "south dakota", "tennessee", "texas", "utah", "vermont", "virginia", "washington", "west virginia", "wisconsin", "wyoming"]
 
 def GetWordIntersection(first, second):
     return ''.join(set(first).intersection(set(second)))
 
-word_list = words.words()
-word_list_lower = [x.lower() for x in word_list]
+word_list = []
+if sys.argv[1] == 'nltk':
+    word_list = words.words()
+    word_list = [x.lower() for x in word_list]
+elif sys.argv[1] == 'top5000':
+    with open("top5000.txt") as f:
+        word_list = [word for line in f for word in line.split()]
+else:
+    print "insert a valid mode"
+
+usa_states = [line.rstrip('\n') for line in open('states.txt')]
 
 for state in usa_states:
-    for word in word_list_lower:
+    found_match = False
+    for word in word_list:
         if GetWordIntersection(state, word) == '':
             every_other_state_shares = True
             for other_state in usa_states:
@@ -18,5 +27,8 @@ for state in usa_states:
                 if GetWordIntersection(other_state, word) == '':
                     every_other_state_shares = False
             if every_other_state_shares:
+                found_match = True
                 print state + " : " + word
                 break;
+    if not found_match:
+        print "    No match for: " + state
